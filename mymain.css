@@ -1,0 +1,219 @@
+body 
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+p.thicker {
+  font-weight: 900;
+  font-family:'Courier New';
+  background-color: blue;
+  color: white;
+  font-size: 20px
+}
+
+
+/*top nav bar start*/  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+/*top nav bar over*/  
+
+/*contact us bar start*/
+.helpbar {
+    overflow: hidden;
+    background-color: #333;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .helpbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .helpbar a:hover {
+    background: #f1f1f1;
+    color: black;
+  }
+  
+  .helpbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .main {
+    padding: 16px;
+    margin-bottom: 30px;
+  }
+  .helpbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+  }
+
+/*contact us bar over*/
+
+/*start of testemonial*/
+/* ------ slider --------*/
+.carousel-item{
+    height: 80vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.testimonials
+{
+    margin: 50px auto;
+}
+.testimonials h1{
+    text-align: center;
+    font-weight: bold;
+    color: #ff9800;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.testimonials h1::after{
+    content: '';
+    background: #ff9800;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.testimonials .row{
+    margin-top: 30px;
+}
+
+.col-md-4
+{
+    margin: 40px auto;
+}
+
+.profile{
+    padding: 70px 10px 10px;
+}
+
+.profile img{
+    top:700px;
+    position: center;
+    left: calc(45% -10px);
+    border: 10px solid whitesmoke;
+}
+
+.user{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #ff9800;
+}
+
+.span{
+    font-size: 12px;
+    color:#333;
+}
+
+.blockquote{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.profile:hover{
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+/*End of testemonial*/
+
+/*Start of Social Media Link tabs */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+/*End of Social Media Link tabs*/
